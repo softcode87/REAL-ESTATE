@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ion-icon {
+    font-size: 100px;
+    align-items: center;
+    padding-left: 50px;
+  }
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar ion-icon{
+    font-size: 50px;
+margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(132, 231, 112);
+
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar ul a{
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.navbar ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+    color: black;
+
+}
+.logo{
+    color: red;
+    font-size: 45px;
+    font-family: monospace;
+    font-style: c;
+}
+.hero{
+    padding-top: 150px;
+    padding-left: 100px;
+    margin-left: 100px;
+    background-image: url(ll5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.hero h1{
+  font-size: 44px;
+  color: rgb(248, 203, 4);
+  font-weight: bolder;
+  width: 700px;
+  text-align: center;
+
+}
+.hero p{
+    font-size: 30px;
+    color:rgb(1, 7, 20);
+    font-weight: bolder;
+
+}
+.hero-button{
+    background: rgb(7, 41, 136);
+    color: rgb(238, 9, 238);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.hero-button:hover{
+    background: whitesmoke;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.main h2{
+    padding-right: 100px;
+    padding-left: 30px;
+    letter-spacing: 5px;
+}
+.h2main{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.main-button{
+    background: black;
+    color: aqua;
+    font-size: 20px;
+    border-radius: 25px;
+    height: 60px;
+    width: 300px;
+    margin-top: 20px;
+}
+.main-button:hover{
+    background: transparent;
+    color:chartreuse;
+}
+.About{
+    display: flex;
+    background: rgb(96, 248, 96);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.About a{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.abtflex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.abtflex p{
+    margin-top: 30px;
+    width: 700px;
+}
+.abtflex a{
+    color: rgb(211, 212, 240);
+    text-decoration: none;
+    font-size: 20px;
+    background: rgb(230, 70, 8);
+    width: 120px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+}
+.abtflex a:hover{
+    color: red;
+    background: transparent;
+}
+.img1 img{
+width: 400px;
+height: 300px;
+object-fit: cover;
+margin-left: 150px;
+}
+.services{
+    background-color: rgb(163, 214, 45);
+    background: linear-gradient(rgb(163, 214, 45), coral);
+}
+.srvhp h2{
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.srvhp p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.srvss{
+    display: flex;
+    justify-content: center;
+}
+.srvss img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.serve1{
+    margin-right: 150px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(25, 76, 187)
+}
+.serve2{
+margin-right: 150px;
+padding: 20px;
+background-size: cover;
+background-position: center;
+color: rgb(25, 76, 187);
+
+}
+.serve3{
+margin-right: 20px;
+padding: 20px;
+background-size: cover;
+background-position: center;
+color: rgb(25, 76, 187);
+}
+.mission{
+    background-color: rgb(36, 35, 35);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+.mission1{
+    margin-right: 100px;
+    padding: 40px;
+}
+.mission2{
+    margin-right: 100px;
+    padding: 40px;
+}
+.mission3{
+    margin-right: 200px;
+    padding: 40px;
+}
+.mission ol {
+    list-style: none;
+}
+.mission ol li::before{
+    content: '\2713';
+}
+.mission h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.mission p{
+    font-size: 15px;
+}
+.strength{
+    display: flex;
+    background-color: rgb(143, 206, 143);
+    border-bottom: 1px rgb(128, 48, 17);
+}
+.info{
+    background-color: rgb(108, 148, 108);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding: 30px;
+}
+.contactinfo{
+    margin: 20px;
+}
+.contactinfo p{
+   color: white;
+   font-weight: lighter;
+}
+.propmgt{
+    margin: 20px;
+}
+.propmgt p{
+    color: white;
+    font-weight: lighter;
+ 
+}
+.propmgt1{
+    margin: 20px;
+}
+.propmgt1 p{
+    color: white;
+    font-weight: lighter;
+}
+.propmgt2{
+    margin: 20px;
+}
+.propmgt2 p{
+    color: white;
+    font-weight: lighter;
+}
+.footer{
+    background-color: rgb(15, 15, 15);
+    color: aquamarine;
+    padding-top: 30px;
+    text-align: center;
+}
+.strength{
+    display: flex;
+    background: rgb(96, 248, 96);
+    justify-content: center;
+}
+.strength h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.stimg img{
+    width: 400px;
+    height: 300px;
+    background-color: darksalmon;
+    margin-left: 150px;
+    object-fit: cover;
+    }
+    .strghead p{
+        margin-top: 30px;
+        width: 500px;
+    }
+    
+    
